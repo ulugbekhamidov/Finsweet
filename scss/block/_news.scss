@@ -1,0 +1,113 @@
+.news-section {
+
+    &__content {
+        display: flex;
+        margin-top: 96px;
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+    };
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 35px;
+        white-space: nowrap;
+    };
+    &__line {
+        border: 1px solid #E5E5E5;
+        transform: rotate(180deg);
+        width: 930px;
+        height: 0;
+    };
+    &__card--img {
+        display: flex;
+        gap: 24px;
+        margin-top: 48px;
+    };
+    &__card--title {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 18px;
+        color: #1C1D28;
+        margin-top: 16px;
+    };
+    &__card--text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        color: #525560;
+        margin-top: 8px;
+    };
+    &__img {
+        transition: 0.3s ease;
+        &:hover {
+            transform: scale(1.01);
+        };
+    };
+    &__line--two {
+        border: 1px solid #E5E5E5;
+        transform: rotate(180deg);
+        width: 1005px;
+        height: 0;
+    };
+    // Usage
+    &__usage--wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+    }
+    &__usage {
+        width: 570px;
+        height: 150px;
+        background: #BEF3C0;
+        border-radius: 8px;
+        gap: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    };
+    &__num--usage {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    };
+    &__usage--number {
+        color: #1D2130;
+        font-weight: 500;
+        font-size: 45px;
+        font-family: 'Roboto';
+    };
+    &__usage--box {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        // margin-bottom: 8px;
+    };
+    &__usage--next {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #1D2130;
+    };
+    &__usage--line {
+        border: 1px solid #1D2130;
+        width: 44px;
+        height: 0px;
+    };
+    &__usage--sep {
+        color: #1D2130;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 15px;
+    };
+    &__usage--title {
+        color: #1D2130;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 28px;
+        width: 381px;
+        margin-top: 8px;
+    }
+}

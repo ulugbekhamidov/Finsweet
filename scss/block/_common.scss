@@ -1,0 +1,58 @@
+// Global classes
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+// btn
+.button {
+    padding: 12px 32px;
+    border-radius: 4px;
+    background: #1D2130;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-bt {
+    padding: 12px 32px;
+    background:#fff;
+    color: #1D2130;
+    border-radius: 4px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.more {
+    padding: 12px 32px;
+    background: #70C174;
+    backdrop-filter: blur(40px);
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 48px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    cursor: pointer;
+}

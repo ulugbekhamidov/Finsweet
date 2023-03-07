@@ -1,0 +1,88 @@
+.donations-section {
+    background: #0B0706;
+    height: 567px;
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+
+    &__wrapper {
+        display: flex;
+        gap: 200px;
+    }
+    &__title {
+        font-size: 44px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        color: #fff;
+        width: 610px;
+        margin-bottom: 16px;
+        margin-top: 90px;
+    };
+    &__text {
+        font-family: 'Roboto';
+        width: 606px;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin-bottom: 32px;
+    }
+}
+
+.donations-percentage {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 550px;
+    align-items:center;
+
+    &__card {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+    &__box {
+        background: #BEF3C0;
+        border-radius: 4px;
+        width: 16px;
+        height: 16px;
+    };
+    &__box-1 {
+        background: #AC94F1;
+        border-radius: 4px;
+        width: 16px;
+        height: 16px;
+        margin-left: 24px;
+    };
+    &__box-2 {
+        background: #FFF0CA;
+        border-radius: 4px;
+        margin-left: 24px;
+        width: 16px;
+        height: 16px;
+    };
+    &__box-3 {
+        background: #F9CF64;
+        border-radius: 4px;
+        width: 16px;
+        height: 16px;
+    };
+    &__box-4 {
+        background: #F38FBF;
+        border-radius: 4px;
+        width: 16px;
+        height: 16px;
+        margin-left: 24px;
+    };
+    &__text {
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+.circle {
+    margin-top: 50px;
+}
